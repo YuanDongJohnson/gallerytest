@@ -8,7 +8,7 @@ export const STATIC_SCENE_URL = new URL("./assets/models/scene_desk_obj.glb", im
 * Texture Resources
 * */
 export const BOARD_TEXTURES = [
-	new URL("./assets/boards/12.mp4", import.meta.url).href,
+	new URL("./assets/boards/11.jpg", import.meta.url).href,
 	new URL("./assets/boards/2.png", import.meta.url).href,
 	new URL("./assets/boards/3.jpg", import.meta.url).href,
 	new URL("./assets/boards/4.jpg", import.meta.url).href,
