@@ -8,16 +8,16 @@ export const STATIC_SCENE_URL = new URL("./assets/models/scene_desk_obj.glb", im
 * Texture Resources
 * */
 export const BOARD_TEXTURES = [
-	new URL("./assets/boards/1.png", import.meta.url).href,
-	new URL("./assets/boards/2.png", import.meta.url).href,
-	new URL("./assets/boards/3.jpg", import.meta.url).href,
-	new URL("./assets/boards/4.jpg", import.meta.url).href,
-	new URL("./assets/boards/5.png", import.meta.url).href,
-	new URL("./assets/boards/6.png", import.meta.url).href,
-	new URL("./assets/boards/7.png", import.meta.url).href,
-	new URL("./assets/boards/8.jpg", import.meta.url).href,
-	new URL("./assets/boards/9.jpg", import.meta.url).href,
-	new URL("./assets/boards/10.png", import.meta.url).href
+	new URL("./assets/boards/11.jpg", import.meta.url).href,
+	new URL("./assets/boards/12.jpg", import.meta.url).href,
+	new URL("./assets/boards/13.jpg", import.meta.url).href,
+	new URL("./assets/boards/14.jpg", import.meta.url).href,
+	new URL("./assets/boards/15.jpg", import.meta.url).href,
+	new URL("./assets/boards/16.jpg", import.meta.url).href,
+	new URL("./assets/boards/17.jpg", import.meta.url).href,
+	new URL("./assets/boards/18.jpg", import.meta.url).href,
+	new URL("./assets/boards/19.jpg", import.meta.url).href,
+	new URL("./assets/boards/20.jpg", import.meta.url).href
 ];
 
 /*
@@ -31,7 +31,7 @@ export const AUDIO_URL = new URL("./assets/audio/我记得.m4a", import.meta.url
 export const BOARDS_INFO: Record<string, {title: string, author: string, describe: string}> = {
 	1: {
 		title: "《小橘贝》",
-		author: "小雅",
+		author: "老吴",
 		describe: `
 		它站在画面中央，静静地凝视着观众，柔和的橘色将它的柔软毛发和灵动眼眸妩媚地勾勒出来。<br>
 		小猫的小耳朵微微竖起，似乎在倾听着什么，身体略微前倾，展现出它对周围世界的好奇和敏感。<br>
@@ -41,7 +41,7 @@ export const BOARDS_INFO: Record<string, {title: string, author: string, describ
 	},
 	2: {
 		title: "《微光》",
-		author: "小雅",
+		author: "老吴",
 		describe: `
 		微小的星光和银河组成了一个神秘的宇宙世界，让人感到无限的遐想和想象。<br>
 		当你凝视着这幅画时，你会感受到无边无际的深邃和宁静。<br>
@@ -52,7 +52,7 @@ export const BOARDS_INFO: Record<string, {title: string, author: string, describ
 	},
 	3: {
 		title: "《天鹅》",
-		author: "小雅",
+		author: "老吴",
 		describe: `
 		湖面静谧如镜，微风拂过，泛起一圈圈细微的涟漪，仿佛为优雅的白色天鹅们铺上了一层晶莹剔透的纱帐。<br>
 		其中一只白羽如雪的天鹅在水中自由自在地舞动着优美的姿态，如同一位华丽的舞者在水上翩翩起舞。<br>
@@ -61,7 +61,7 @@ export const BOARDS_INFO: Record<string, {title: string, author: string, describ
 	},
 	4: {
 		title: "《山中小屋》",
-		author: "小雅",
+		author: "老吴",
 		describe: `
 		宁静而恬淡，远山隐现于云雾中，仿佛是一幅梦幻般的画卷。<br>
 		小屋在山脚下宁静地伫立，墙体洁白，屋顶泛着淡淡的阳光，使得小屋与周围的环境相互映衬。<br>
@@ -70,7 +70,7 @@ export const BOARDS_INFO: Record<string, {title: string, author: string, describ
 	},
 	5: {
 		title: "《太空人》",
-		author: "小雅",
+		author: "老吴",
 		describe: `
 		太空人身披着黑夜在星罗棋布的宇宙中漫游。<br>
 		虽说现在已经是太空时代，人类早就可以坐太空飞船去月球，<br>
@@ -79,7 +79,7 @@ export const BOARDS_INFO: Record<string, {title: string, author: string, describ
 	},
 	6: {
 		title: "《粉色海洋》",
-		author: "小雅",
+		author: "老吴",
 		describe: `
 		粉色云朵蓬松如棉花糖展开眼前，弯月微笑在缝隙间，月光柔和，清雅动人。<br>
 		紫色天空如梦，星辉闪烁，默默倾听，轻轻地，微风拂面，悄悄地，生命在流动。
@@ -87,7 +87,7 @@ export const BOARDS_INFO: Record<string, {title: string, author: string, describ
 	},
 	7: {
 		title: "《风平浪静》",
-		author: "小雅",
+		author: "老吴",
 		describe: `
 		撑一条船，离开岸边一百米，风平浪静，彩霞慢慢淡下去。<br>
 		撑一条船，离开岸边两百米，风平浪静，夜晚轻轻呼唤你。<br>
@@ -98,7 +98,7 @@ export const BOARDS_INFO: Record<string, {title: string, author: string, describ
 	},
 	8: {
 		title: "《向日葵》",
-		author: "小雅",
+		author: "老吴",
 		describe: `
 		阳光照耀，金黄的花盘。<br>
 		宛如一盏明灯，指引前行。<br>
@@ -107,7 +107,7 @@ export const BOARDS_INFO: Record<string, {title: string, author: string, describ
 	},
 	9: {
 		title: "《花·虎·蝶》",
-		author: "小雅",
+		author: "老吴",
 		describe: `
 		一段奇妙的相遇，是自由和勇气的结合，是一份神秘而又动人的韵味。<br>
 		在这片色彩斑斓的花海之中，一只带着蝴蝶翅膀的老虎，骑着踏板车，<br>
@@ -117,7 +117,7 @@ export const BOARDS_INFO: Record<string, {title: string, author: string, describ
 	},
 	10: {
 		title: "《豚》",
-		author: "小雅",
+		author: "老吴",
 		describe: `
 		所有的转折隐藏在密集的鸟群中，天空与海洋都无法察觉，怀着美梦却可以看见。<br>
 		摸索颠倒的一瞬间，所有的怀念隐藏在相似的日子里，心里的蜘蛛模仿人类张灯结彩
