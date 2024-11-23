@@ -1,0 +1,8 @@
+{
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "https://gallery.newidea.7749.org/$1"
+    }
+  ]
+}
