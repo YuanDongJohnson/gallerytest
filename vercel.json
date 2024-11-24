@@ -1,8 +1,0 @@
-{
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "https://www.newidea.7749.org/$1"
-    }
-  ]
-}
